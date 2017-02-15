@@ -9,6 +9,8 @@ using Calculadora.Models;
 
 namespace RabbitCalculadora
 {
+#warning Defini interface
+#warning Definir atributo de acesso explicito public, protec, etc
     class ClientRabbitCalculadora
     {
 
@@ -20,13 +22,18 @@ namespace RabbitCalculadora
         //Construindo o cliente
         public ClientRabbitCalculadora()
         {
+
+#warning Utilizar injeção de dependência
+#warning Criar factory estático
+#warning Queue consumer pode ser Singleton
+#warning A configuração deve vir do arquivo de configuração
             var factory = new ConnectionFactory() { HostName = "localhost" };
             conexao = factory.CreateConnection();
             canal = conexao.CreateModel();
             replyQueueName = canal.QueueDeclare().QueueName;
             consumer = new QueueingBasicConsumer(canal);
 
-
+#warning Deve estar dentro do factory
             canal.BasicConsume(
                 queue: replyQueueName,
                 noAck: true,
@@ -51,6 +58,8 @@ namespace RabbitCalculadora
                 basicProperties: props,
                 body: contaBytes);
 
+
+#warning Trocar por evento, não utilizar while infinito
             while (true)
             {
                 var ea = (BasicDeliverEventArgs)consumer.Queue.Dequeue();

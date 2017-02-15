@@ -5,3 +5,4 @@ c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalcula
 c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\bin\Debug\RabbitMQ.Client.xml
 c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\obj\Debug\RabbitCalculadora.exe
 c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\obj\Debug\RabbitCalculadora.pdb
+C:\Users\fguedes\Documents\Visual Studio 2015\Projects\Calculadora\RabbitCalculadora\obj\Debug\RabbitCalculadora.csprojResolveAssemblyReference.cache

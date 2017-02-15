@@ -9,8 +9,13 @@ using RabbitMQ.Client.Events;
 
 namespace RabbitCalculadora
 {
+
+#warning Manager, processor, interface, Ioc, Simple Injetor - foco no Manager e Processor
+
     class RabbitCalculadora
     {
+
+#warning Esse método faz muita coisa, não tem separação por responsabilidade
         static void Main(string[] args)
         {
             //Criando a conexao com o rabbit
