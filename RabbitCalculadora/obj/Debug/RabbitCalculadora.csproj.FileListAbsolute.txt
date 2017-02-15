@@ -1,0 +1,7 @@
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\bin\Debug\RabbitCalculadora.exe.config
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\bin\Debug\RabbitCalculadora.exe
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\bin\Debug\RabbitCalculadora.pdb
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\bin\Debug\RabbitMQ.Client.dll
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\bin\Debug\RabbitMQ.Client.xml
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\obj\Debug\RabbitCalculadora.exe
+c:\users\fguedes\documents\visual studio 2015\Projects\Calculadora\RabbitCalculadora\obj\Debug\RabbitCalculadora.pdb
